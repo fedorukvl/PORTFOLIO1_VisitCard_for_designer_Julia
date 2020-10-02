@@ -1,0 +1,43 @@
+.personalInformation {
+	display: flex;
+	justify-content: flex-start;
+	flex: 1 0 100%;
+	align-items: center;
+	background-color: #d0bfb5;
+}
+.personalInformation img {
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 2%;
+}
+.infoDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	height: 60%;
+	background-color: white;
+	padding: 10px;
+}
+@media (max-width: 768px) {
+	.personalInformation img {
+		width: 50%;
+	}
+	.infoDiv {
+		width: 50%;
+		height: 45%;
+	}
+}
+
+@media (max-width: 480px) {
+	.personalInformation {
+		justify-content: center;
+	}
+	.personalInformation img {
+		width: 53%;
+	}
+	.infoDiv {
+		width: 40%;
+		height: 50%;
+	}
+}

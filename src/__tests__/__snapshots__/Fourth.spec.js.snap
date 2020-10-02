@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of <Third/> component first render of <Fourth/> component <Fourth/> component renders properly 1`] = `
+"<div className=\\"pantsDiv\\">
+  <div className=\\"leftPantsImgDiv\\">
+    <img src=\\"10.png\\" alt=\\"pants #2\\" className=\\"pantsProfilePic\\" />
+    <img src=\\"9.png\\" alt=\\"pants #1\\" className=\\"pantsPic\\" />
+  </div>
+  <div className=\\"rightPantsDescriptionDiv\\">
+    <h1>
+      Выполненный проект
+    </h1>
+    <br />
+  </div>
+</div>"
+`;

@@ -1,0 +1,79 @@
+.pantsDiv {
+	display: flex;
+	flex: 1 0 100%;
+}
+.pantsDiv .leftPantsImgDiv {
+	height: 100vh;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url("../img/11.jpg");
+}
+.pantsDiv .leftPantsImgDiv img {
+	position: relative;
+	width: 60%;
+	z-index: 1;
+}
+.leftPantsImgDiv .pantsPic {
+	width: 88% !important;
+}
+.pantsDiv .rightPantsDescriptionDiv {
+	background-color: #d0bfb5;
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.pantsDiv .rightPantsDescriptionDiv p {
+	text-align: right;
+	padding: 10px;
+	font-weight: bold;
+	z-index: 3;
+}
+@media (max-width: 768px) {
+	.pantsDiv .leftPantsImgDiv {
+		justify-content: center;
+	}
+	.pantsDiv .leftPantsImgDiv img {
+		width: 70%;
+	}
+	.leftPantsImgDiv .pantsPic {
+		width: 100% !important;
+		margin-left: -120%;
+	}
+	.pantsDiv .rightPantsDescriptionDiv p {
+		text-align: left;
+	}
+}
+
+@media (max-width: 480px) {
+	.pantsDiv .leftPantsImgDiv {
+		width: 50%;
+		justify-content: center;
+	}
+	.leftPantsImgDiv .pantsProfilePic {
+		display: none;
+	}
+	.leftPantsImgDiv .pantsPic {
+		width: 300% !important;
+		margin: 20%;
+	}
+	.pantsDiv .rightPantsDescriptionDiv p {
+		text-align: left;
+		font-size: 14px;
+	}
+	.pantsDiv .rightPantsDescriptionDiv h1 {
+		font-size: 15px !important;
+	}
+}
+@media (max-width: 1026px) {
+	.leftPantsImgDiv .pantsPic {
+		margin-left: -15%;
+	}
+	.pantsDiv .rightPantsDescriptionDiv p {
+		text-align: left;
+	}
+}

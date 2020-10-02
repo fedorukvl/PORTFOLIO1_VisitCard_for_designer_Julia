@@ -1,0 +1,74 @@
+.karateDiv {
+	display: flex;
+	flex: 1 0 100%;
+}
+.karateDiv .leftImgDiv {
+	height: 100vh;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: url("../img/8.png") right no-repeat;
+	background-size: cover;
+}
+.karateDiv .leftImgDiv img {
+	margin-left: 12%;
+	width: 24%;
+}
+.karateDiv .rightDescriptionDiv {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.karateDiv .rightDescriptionDiv p {
+	padding: 10px;
+}
+@media (max-width: 768px) {
+	.karateDiv .leftImgDiv {
+		background: url("../img/8.png") top no-repeat;
+		background-size: cover;
+	}
+	.karateDiv .leftImgDiv img {
+		margin-left: 0;
+		width: 40%;
+	}
+	.karateDiv .rightDescriptionDiv h1 {
+		text-align: center;
+	}
+	.karateDiv .rightDescriptionDiv p {
+		padding: 19px;
+	}
+}
+
+@media (max-width: 480px) {
+	.karateDiv {
+		flex-direction: row-reverse;
+	}
+	.karateDiv .leftImgDiv {
+		background: url("../img/8.png") top no-repeat;
+		background-size: cover;
+		flex-direction: column;
+	}
+	.karateDiv .leftImgDiv img {
+		margin-left: 0;
+		width: 35%;
+	}
+	.karateDiv .rightDescriptionDiv h1 {
+		text-align: center;
+		font-size: 15px !important;
+	}
+	.karateDiv .rightDescriptionDiv p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1026px) {
+	.karateDiv .rightDescriptionDiv h1 {
+		text-align: center;
+	}
+	.karateDiv .rightDescriptionDiv p {
+		padding: 19px;
+	}
+}

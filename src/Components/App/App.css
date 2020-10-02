@@ -1,0 +1,14 @@
+.mainContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+@media (max-width: 480px) {
+	.mainContainer {
+		flex-direction: column;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+}

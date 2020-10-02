@@ -1,0 +1,52 @@
+.finalDiv {
+	display: flex;
+	flex: 1 0 100%;
+}
+.finalDiv .leftImgDiv {
+	height: 100vh;
+	width: 40%;
+	background: url("../img/12.png") center no-repeat;
+	background-size: cover;
+}
+.finalDiv .thankDiv {
+	text-align: center;
+	width: 60%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.thankDiv h1 {
+	margin-bottom: 10%;
+}
+.thankDiv .linkDiv {
+	margin-top: 10%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+	.finalDiv .thankDiv b {
+		font-size: 7px;
+	}
+	.finalDiv .thankDiv h1 {
+		font-size: 14px !important;
+	}
+	.finalDiv .thankDiv p {
+		font-size: 14px;
+	}
+
+	.thankDiv .linkDiv {
+		width: 50%;
+	}
+}
+@media (max-width: 1026px) {
+	.finalDiv .thankDiv h1 {
+		font-size: 20px;
+	}
+}

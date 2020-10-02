@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of <Fifth/> component <Fifth/> component renders elements Renders elements properly 1`] = `
+"<div className=\\"workProgressDiv\\">
+  <div className=\\"leftProgressDiv\\">
+    <h1>
+      Процесс выполнения корсета 
+    </h1>
+    <img src=\\"13.jpg\\" alt=\\"progress example #1\\" />
+    <img src=\\"14.jpg\\" alt=\\"progress example #2\\" />
+    <img src=\\"15.jpg\\" alt=\\"progress example #3\\" />
+  </div>
+  <div className=\\"centerProgressDiv\\">
+    <img src=\\"16.jpg\\" alt=\\"result example #1\\" />
+    <img src=\\"17.jpg\\" alt=\\"result example #2\\" />
+  </div>
+  <div className=\\"rightProgressDiv\\">
+    <h1>
+      Этапы выполнения вытачек по разным методикам
+    </h1>
+    <img src=\\"18.jpg\\" alt=\\"progress example #4\\" />
+    <img src=\\"19.jpg\\" alt=\\"progress example #5\\" />
+    <img src=\\"20.jpg\\" alt=\\"progress example #6\\" />
+  </div>
+</div>"
+`;
+
+exports[`Tests of <Fifth/> component First render of <Fifth/> component Renders properly 1`] = `
+"<div className=\\"workProgressDiv\\">
+  <div className=\\"leftProgressDiv\\">
+    <h1>
+      Процесс выполнения корсета 
+    </h1>
+    <img src=\\"13.jpg\\" alt=\\"progress example #1\\" />
+    <img src=\\"14.jpg\\" alt=\\"progress example #2\\" />
+    <img src=\\"15.jpg\\" alt=\\"progress example #3\\" />
+  </div>
+  <div className=\\"centerProgressDiv\\">
+    <img src=\\"16.jpg\\" alt=\\"result example #1\\" />
+    <img src=\\"17.jpg\\" alt=\\"result example #2\\" />
+  </div>
+  <div className=\\"rightProgressDiv\\">
+    <h1>
+      Этапы выполнения вытачек по разным методикам
+    </h1>
+    <img src=\\"18.jpg\\" alt=\\"progress example #4\\" />
+    <img src=\\"19.jpg\\" alt=\\"progress example #5\\" />
+    <img src=\\"20.jpg\\" alt=\\"progress example #6\\" />
+  </div>
+</div>"
+`;

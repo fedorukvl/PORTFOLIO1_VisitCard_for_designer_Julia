@@ -1,0 +1,100 @@
+.basicCloseDiv {
+	display: flex;
+	flex: 1 0 100%;
+	align-items: center;
+}
+.basicCloseDiv img {
+	position: relative;
+}
+.basicCloseDiv .leftDiv {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-color: #d0bfb5;
+}
+.basicCloseDiv .rightDiv {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.leftDiv .firstImg {
+	width: 75%;
+	margin: -10% 0 0 7%;
+	z-index: 0;
+}
+.leftDiv .secondImg {
+	width: 23%;
+	margin: 15% 0 0 2%;
+	z-index: 1;
+}
+.rightDiv .thirdImg {
+	width: 50%;
+	margin: -20% 0 0 7%;
+	z-index: 1;
+}
+.rightDiv .fourthImg {
+	margin: 20% 0 0 -5%;
+	width: 40%;
+	z-index: 2;
+	border: 3px solid white;
+}
+@media (max-width: 768px) {
+	.basicCloseDiv .leftDiv {
+		width: 50%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.basicCloseDiv .rightDiv {
+		width: 50%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.leftDiv .firstImg {
+		margin: -10% 0 0 20%;
+		width: 90%;
+	}
+	.leftDiv .secondImg {
+		width: 45%;
+		margin: -10% 0 0 20%;
+	}
+	.rightDiv .thirdImg {
+		width: 60%;
+		margin: 0 4% 10% 0;
+	}
+	.rightDiv .fourthImg {
+		width: 80%;
+		margin: 0 0 0 -5%;
+		border: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.basicCloseDiv .leftDiv {
+		width: 50%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.basicCloseDiv .rightDiv {
+		width: 50%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.leftDiv .firstImg {
+		margin: -10% 0 0 20%;
+		width: 120%;
+	}
+	.leftDiv .secondImg {
+		width: 55%;
+		margin: -10% 0 0 20%;
+	}
+	.rightDiv .thirdImg {
+		width: 70%;
+		margin: 95% 10% 0 0;
+	}
+	.rightDiv .fourthImg {
+		width: 110%;
+		margin: 5% 0 0 -5%;
+		border: none;
+	}
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of <Third/> component first render of <Third/> component <Third> component renders properly 1`] = `
+"<div className=\\"karateDiv\\">
+  <div className=\\"leftImgDiv\\">
+    <img src=\\"5.png\\" alt=\\"karate concept #1\\" />
+    <img src=\\"6.png\\" alt=\\"karate concept #2\\" />
+    <img src=\\"7.png\\" alt=\\"karate concept #3\\" />
+  </div>
+  <div className=\\"rightDescriptionDiv\\">
+    <h1>
+      Примеры выполненных эскизов на тему : 
+    </h1>
+    <br />
+  </div>
+</div>"
+`;

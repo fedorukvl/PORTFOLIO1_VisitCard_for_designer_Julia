@@ -1,0 +1,65 @@
+.workProgressDiv {
+	display: flex;
+	flex: 1 0 100%;
+}
+.workProgressDiv h1 {
+	text-align: center;
+	font-size: 14px;
+}
+.workProgressDiv .leftProgressDiv {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.workProgressDiv .leftProgressDiv img {
+	width: 42%;
+}
+
+.workProgressDiv .centerProgressDiv {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	background-color: #d0bfb5;
+}
+.workProgressDiv .centerProgressDiv img {
+	width: 80%;
+}
+
+.workProgressDiv .rightProgressDiv {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.workProgressDiv .rightProgressDiv img {
+	width: 35%;
+}
+@media (max-width: 768px) {
+	.workProgressDiv .leftProgressDiv img {
+		width: 82%;
+	}
+	.workProgressDiv .centerProgressDiv {
+		width: 90%;
+	}
+	.workProgressDiv .rightProgressDiv img {
+		width: 70%;
+	}
+}
+
+@media (max-width: 480px) {
+	.workProgressDiv .leftProgressDiv img {
+		width: 82%;
+	}
+	.workProgressDiv .centerProgressDiv {
+		display: none;
+	}
+	.workProgressDiv .rightProgressDiv img {
+		width: 70%;
+	}
+}

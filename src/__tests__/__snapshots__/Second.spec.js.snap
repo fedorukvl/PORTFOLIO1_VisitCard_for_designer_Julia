@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of <Second/> component <Second/> component renders elements Renders elements properly 1`] = `
+"<div className=\\"basicCloseDiv\\">
+  <div className=\\"leftDiv\\">
+    <img src=\\"1.jpg\\" alt=\\"first concept\\" className=\\"firstImg\\" />
+    <img src=\\"2.png\\" alt=\\"fourth concept\\" className=\\"secondImg\\" />
+  </div>
+  <div className=\\"rightDiv\\">
+    <img src=\\"3.jpg\\" alt=\\"second concept\\" className=\\"thirdImg\\" />
+    <img src=\\"4.jpg\\" alt=\\"third concept\\" className=\\"fourthImg\\" />
+  </div>
+</div>"
+`;
+
+exports[`Tests of <Second/> component First render of <Second/> Component Renders properly 1`] = `
+"<div className=\\"basicCloseDiv\\">
+  <div className=\\"leftDiv\\">
+    <img src=\\"1.jpg\\" alt=\\"first concept\\" className=\\"firstImg\\" />
+    <img src=\\"2.png\\" alt=\\"fourth concept\\" className=\\"secondImg\\" />
+  </div>
+  <div className=\\"rightDiv\\">
+    <img src=\\"3.jpg\\" alt=\\"second concept\\" className=\\"thirdImg\\" />
+    <img src=\\"4.jpg\\" alt=\\"third concept\\" className=\\"fourthImg\\" />
+  </div>
+</div>"
+`;
