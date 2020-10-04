@@ -17,6 +17,7 @@
 }
 .leftPantsImgDiv .pantsPic {
 	width: 88% !important;
+	margin-left: -10%;
 }
 .pantsDiv .rightPantsDescriptionDiv {
 	background-color: #d0bfb5;
