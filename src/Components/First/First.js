@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import test from "../test.jpg";
+import profilePhoto from "../img/profile.jpg";
 import "./First.css";
 function First({ personalInfo }) {
 	return (
 		<div className="personalInformation">
-			<img src={personalInfo.imageUrl} alt="profile photo" />
+			<img src={profilePhoto} alt="profile" />
 			<div className="infoDiv">
 				<h1>
 					Привет! <span>👋</span>
