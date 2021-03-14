@@ -8,6 +8,9 @@ function App() {
 	let data = useSelector((state) => state.data);
 	useEffect(() => {
 		dispatch(getData());
+		if(window.innerWidth >=700){
+			alert('<- ЛИСТАЙТЕ ВПРАВО ИЛИ ВЛЕВО ->');
+		}
 	}, []);
 	return (
 		<div className="mainContainer">
