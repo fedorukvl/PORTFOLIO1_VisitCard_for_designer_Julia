@@ -19,7 +19,8 @@ function Third({ karateProject }) {
 	);
 }
 
-export default Third;
 Third.propTypes = {
 	karateProject: PropTypes.arrayOf(PropTypes.string),
 };
+
+export default Third;

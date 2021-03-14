@@ -22,7 +22,8 @@ function Fourth({ pantsProject }) {
 	);
 }
 
-export default Fourth;
 Fourth.propTypes = {
 	karateProject: PropTypes.arrayOf(PropTypes.string),
 };
+
+export default Fourth;

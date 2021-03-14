@@ -28,7 +28,9 @@ function First({ personalInfo }) {
 		</div>
 	);
 }
-export default First;
+
 First.propTypes = {
 	personalInfo: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
 };
+
+export default First;
