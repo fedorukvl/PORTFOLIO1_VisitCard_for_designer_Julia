@@ -1,17 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Third.css";
-import fifthPic from "../img/5.png";
-import sixthPic from "../img/6.png";
-import seventhPic from "../img/7.png";
 
 function Third({ karateProject }) {
 	return (
 		<div className="karateDiv">
 			<div className="leftImgDiv">
-				<img src={fifthPic} alt="karate concept #1" />
-				<img src={sixthPic} alt="karate concept #2" />
-				<img src={seventhPic} alt="karate concept #3" />
+				<img src={require("../img/5.png")} alt="karate concept #1" />
+				<img src={require("../img/6.png")} alt="karate concept #2" />
+				<img src={require("../img/7.png")} alt="karate concept #3" />
 			</div>
 			<div className="rightDescriptionDiv">
 				<h1>Примеры выполненных эскизов на тему : </h1>
